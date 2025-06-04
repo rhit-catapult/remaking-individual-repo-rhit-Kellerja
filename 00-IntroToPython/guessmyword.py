@@ -1,5 +1,6 @@
 import random
-
+# import nltk
+# from nltk.corpus
 def update_display_word(dw, sw, g):
     new_display_word = ""
     for k in range(len(sw)):
