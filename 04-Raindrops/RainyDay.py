@@ -123,9 +123,8 @@ def main():
 
 
 
-        # DISCUSS: If you want something to happen once per key press, put it in the events loop above
-        #          If you want something to continually happen while holding the key, put it after the events loop.
-        pressed_keys = pygame.key.get_pressed()
+
+            pressed_keys = pygame.key.get_pressed()
         if pressed_keys[pygame.K_UP]:
             cloud.y -= 10
         if pressed_keys[pygame.K_DOWN]:
